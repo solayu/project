@@ -1,0 +1,16 @@
+{
+  "errno": 0,
+  "data": [
+    {
+      "username": "3******c",
+      "rateTime": 12434546565,
+      "deliveryTime": 30,
+      "score": 5,
+      "rateType": 0,
+      "text": "",
+      "avatar": "",
+      "recommend": [
+      ]
+    }
+   ]
+}

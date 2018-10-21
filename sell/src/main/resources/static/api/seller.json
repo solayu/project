@@ -1,0 +1,50 @@
+{
+  "errno": 0,
+  "data": {
+    "name": "",
+    "description": "",
+    "deliveryTime": 38,
+    "score": 4.2,
+    "serviceScore": 4.1,
+    "foodScore": 4.3,
+    "rankRate": 69.2,
+    "minPrice": 0,
+    "deliveryPrice": 0,
+    "ratingCount": 24,
+    "sellCount": 90,
+    "bulletin": "",
+    "supports": [
+      {
+        "type": 0,
+        "description": ""
+      },
+      {
+        "type": 1,
+        "description": ""
+      },
+      {
+        "type": 2,
+        "description": ""
+      },
+      {
+        "type": 3,
+        "description": ""
+      },
+      {
+        "type": 4,
+        "description": ""
+      }
+    ],
+    "avatar": "",
+    "pics": [
+      "",
+
+    ],
+    "infos": [
+      "",
+      "",
+      "",
+      ""
+    ]
+  }
+}

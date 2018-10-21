@@ -1,0 +1,48 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 208518
+    url: jdbc:mysql://192.168.135.248:3306/sell?characterEncoding=utf-8&useSSL=false
+    #url: jdbc:mysql://192.168.43.110:3306/sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  redis:
+    #host: 192.168.135.248
+    host: 192.168.43.110
+    port: 6379
+   # password: 123456
+  #jackson:
+    #default-property-inclusion: non_null
+server:
+  context-path: /sell
+#logging:
+ # pattern:
+  #  console: "%d-%msg%n"
+  #path: /var/log/tomcat
+  #file: /var/log/tomcat/sell.log
+ # lever:
+ #   com.imcoo.sell.LoggerTest: debug
+
+wechat:
+  mpAppId: xxxxxxxxxxxxxxxxxxxxxxxxx
+  mpAppSecret: xxxxxxxxxxxxxxxxxxxxxxx
+  mchId:
+  mchKey:
+  keyPath: xxxxxxxxxxxxxxxxxxxxxxxxxx
+  notifyUrl:  http://lysola.natapp1.cc/sell/pay/notifyurl
+  loginAppId:
+  loginAppSecret:
+  templateId:
+     tem1: gQbDyBqCulmJALw05Yu6CTp9knsijVjaVQ2J902eewA
+projectUrl:
+  weChatMpAuthorize: http://lysola.natapp1.cc
+  wechatloginAuthorize: http://lysola.natapp1.cc
+  sell: http://lysola.natapp1.cc
+
+
+
+
+
